@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Axnet Labs IoT App</string>
+    <string name="sensor_num">Enter Sensor Number</string>
+    <string name="retrieve_button">Retrieve</string>
+</resources>

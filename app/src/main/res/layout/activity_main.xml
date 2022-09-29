@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingStart="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/sensor_num" />
+
+    <EditText
+        android:id="@+id/sensorNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="1001"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+
+    <Button
+        android:id="@+id/retrieveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="retrieveData"
+        android:text="@string/retrieve_button" />
+
+    <TextView
+        android:id="@+id/sensorData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:text="Data Displayed Here" />
+
+</LinearLayout>
