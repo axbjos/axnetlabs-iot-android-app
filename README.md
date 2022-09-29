@@ -1,6 +1,6 @@
 # Basic Android App for IoT
 
-##Query IoT Style Data from an API
+## Query IoT Style Data from an API
 
 Very simple app used for basic demos.
 
